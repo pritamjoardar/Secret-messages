@@ -19,7 +19,7 @@ const Page = () => {
       <div className="flex justify-center flex-col text-center gap-2 mt-10">
         <h1 className="font-bold text-2xl">Welcome to Secret Messages</h1>
         <p className="font-bold">
-        "Here you can send anonymous messages to anyone and your identity remains secret
+        Here you can send anonymous messages to anyone and your identity remains secret
         </p>
       </div>
       <div className="flex justify-center mt-5">
