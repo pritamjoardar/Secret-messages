@@ -45,6 +45,9 @@ const Page = () => {
             }else if(result.error === 'Error: User not found with this email'){
               toast.error("User not found with this email");
             }
+            else if(result.error === 'Error: please verify your account before login'){
+              toast.error("please verify your account before login");
+            }
         }else{
             toast.error(result?.error);
         }
