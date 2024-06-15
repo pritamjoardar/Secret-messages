@@ -91,7 +91,7 @@ const Page = () => {
 
   useEffect(() => {
     if (!session || !session.user) return;
-    setBaseUrl(`${window.location.protocol}// ${window.location.host}`);
+    setBaseUrl(`${window.location.protocol}//${window.location.host}`);
     fetchAcceptMessages();
     fetchMessages();
   }, [session, setValue, fetchAcceptMessages, fetchMessages]);
