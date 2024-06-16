@@ -29,7 +29,7 @@ const Navbar = () => {
           ) : (
             <>
               {/* <h1 className="font-bold text-2xl">Secret Messages</h1> */}
-              <Image src={Logo.src} alt="Secret Messages" height={300} width={300}/>
+              <Image src={Logo.src} alt="Secret Messages" height={300} width={300} className="w-52 md:w-72"/>
               <Link href="/signIn">
                 <Button className="bg-primaryColor">Login</Button>
               </Link>
