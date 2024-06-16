@@ -63,7 +63,8 @@ npm start
 
 # Screenshots
 ## Home Page
-![image](https://github.com/pritamjoardar/Secret-messages/assets/111422356/b3c6bf4c-e61f-4789-85b4-b20ffe7d4d2d)
+![image](https://github.com/pritamjoardar/Secret-messages/assets/111422356/9f55aad2-ce2a-45c9-99e0-d1ec244ca2c9)
+
 
 ## Registration Page
 ![image](https://github.com/pritamjoardar/Secret-messages/assets/111422356/f135ecec-31f9-4b71-9c76-68a8da1a1925)
