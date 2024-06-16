@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useSession, signOut } from "next-auth/react";
 import { User } from "next-auth";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import Logo from "../assets/logo.png"
 
 const Navbar = () => {
   const { data: session, status } = useSession();
@@ -26,7 +28,8 @@ const Navbar = () => {
             </>
           ) : (
             <>
-              <h1 className="font-bold text-2xl">Secret Messages</h1>
+              {/* <h1 className="font-bold text-2xl">Secret Messages</h1> */}
+              <Image src={Logo.src} alt="Secret Messages" height={300} width={300}/>
               <Link href="/signIn">
                 <Button className="bg-primaryColor">Login</Button>
               </Link>
