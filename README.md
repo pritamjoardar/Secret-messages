@@ -110,7 +110,7 @@ We welcome contributions! Please follow these steps:
 ## Contact
 For any queries or issues, please reach out to:
 
-- Link:  [https://www.pritamjoardar.online/](https://www.pritamjoardar.online/)
+- Link:  [https://www.pritamjoardar.online/](https://www.pritamjoardar.site/)
 - GitHub: [pritamjoardar](https://github.com/pritamjoardar)
 
 ## Made with ❤️ by Pritam Joardar.
